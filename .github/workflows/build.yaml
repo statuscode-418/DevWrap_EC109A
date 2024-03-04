@@ -16,7 +16,7 @@ jobs:
         run: npm --version
 
       - name: 'Install dependencies'
-        run: npm i ./Space-Invaders/package.json
+        run: npm i ./Space-Invaders
 
       - name: 'Build project'
         run: npm run build
