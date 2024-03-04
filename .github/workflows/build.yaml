@@ -15,6 +15,9 @@ jobs:
       - name: 'Checkout the npm version'
         run: npm --version
 
+      - name: 'Go to the space invaiders directory'
+        run: cd Space-Invaders
+
       - name: 'Install dependencies'
         run: npm i
 
